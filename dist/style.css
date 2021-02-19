@@ -1,0 +1,85 @@
+img{
+  height: 420px;
+  width: auto;
+}
+
+h1{
+  position: absolute;
+  left: 200px;
+  bottom: 30px;
+}
+
+h1, .blockquote{
+  font-family: 'Abril Fatface', cursive;
+}
+
+span{
+  font-size: 50px;
+}
+
+header{
+  position: relative;
+  width:900px;
+}
+
+div, footer, blockquote{
+  width: 780px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2, p, ul{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.introduction{
+  font-size: 20px;
+}
+
+subtitle{
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+p, ul{
+  line-height: 1.6;
+}
+
+h2{
+  margin-bottom: 0;
+}
+
+blockquote{
+  background-color: #575151;
+  height: 200px;
+  color: white;
+  font-size: 44px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+blockquote::before {
+  content: '\201C'; /* ide jön a stílusa */
+  font-size: 150px;
+  position: absolute;
+  top: -30px;
+  left: 2px;
+}
+
+.blockquote{
+  position: absolute;
+  left: 40px;
+}
+
+footer{
+  
+  border: 3px solid black;
+  border-style: solid none none none;
+}
